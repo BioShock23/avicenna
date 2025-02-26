@@ -57,4 +57,5 @@ RUN git clone https://github.com/martineberlein/avicenna.git avicenna && \
     git checkout dev && \
     pip3 install -e .[dev]
 
+EXPOSE 8888
 CMD ["fish"]
